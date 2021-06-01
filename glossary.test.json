@@ -1,0 +1,206 @@
+{
+    "source_id": "glossary",
+    "url": "https://developers.google.com/machine-learning/glossary",
+    "sections": [
+        {
+            "name": "class",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "classification model",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "classification threshold",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "clustering",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "convenience sampling",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "convolutional neural network",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "cost",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "data augmentation",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "data set or dataset",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "decision boundary",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "dropout regularization",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "example",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "fairness constraint",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "few-shot learning",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "hyperparameter",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "implicit bias",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "items",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "label",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "landmarks",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "learning rate",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "loss surface",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "majority class",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "Markov decision process (MDP)",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "ML",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "MNIST",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "NaN trap",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "negative class",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "node (TensorFlow graph)",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "output layer",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "preprocessing",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "quantization",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "queue",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "representation",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "reward",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "Saver",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "step",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "timestep",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "trajectory",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "true positive rate (TPR)",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "wide model",
+            "split": "test",
+            "text": []
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "source_id": "rules-of-ml",
+    "url": "https://developers.google.com/machine-learning/guides/rules-of-ml?hl=zh-cn",
+    "sections": [
+        {
+            "name": "Rule #3: Choose machine learning over a complex heuristic.",
+            "split": "valid",
+            "text": [
+                [
+                    "Rule #3: Choose machine learning over a complex heuristic.",
+                    "第 3 条规则：选择机器学习技术而非复杂的启发式算法。"
+                ],
+                [
+                    "A simple heuristic can get your product out the door.",
+                    "简单的启发式算法有利于推出产品。"
+                ],
+                [
+                    "A complex heuristic is unmaintainable.",
+                    "但复杂的启发式算法难以维护。"
+                ],
+                [
+                    "Once you have data and a basic idea of what you are trying to accomplish, move on to machine learning.",
+                    "当您获得足够的数据并基本确定自己要尝试实现的目标后，请考虑使用机器学习技术。"
+                ],
+                [
+                    "As in most software engineering tasks, you will want to be constantly updating your approach, whether it is a heuristic or a machine­-learned model, and you will find that the machine­-learned model is easier to update and maintain (see Rule #16).",
+                    "与大多数软件工程任务一样，您需要不断更新方法（无论是启发式算法还是机器学习模型），而且您会发现机器学习模型更易于更新和维护（请参阅第 16 条规则）。"
+                ]
+            ]
+        },
+        {
+            "name": "ML Phase I: Your First Pipeline",
+            "split": "valid",
+            "text": [
+                [
+                    "ML Phase I: Your First Pipeline",
+                    "机器学习第一阶段：您的第一个管道"
+                ],
+                [
+                    "Focus on your system infrastructure for your first pipeline.",
+                    "重点关注第一个管道的系统基础架构。"
+                ],
+                [
+                    "While it is fun to think about all the imaginative machine learning you are going to do, it will be hard to figure out what is happening if you don’t first trust your pipeline.",
+                    "虽然展望您将要进行的创新性机器学习的方方面面是一件很有趣的事，但如果您不先确认管道的可靠性，则很难弄清楚所发生的情况。"
+                ]
+            ]
+        },
+        {
+            "name": "Rule #7: Turn heuristics into features, or handle them externally.",
+            "split": "valid",
+            "text": [
+                [
+                    "Rule #7: Turn heuristics into features, or handle them externally.",
+                    "第 7 条规则：将启发式算法转变为特征或在外部处理它们。"
+                ],
+                [
+                    "Usually the problems that machine learning is trying to solve are not completely new.",
+                    "通常，机器学习尝试解决的问题并不是全新的问题。"
+                ],
+                [
+                    "There is an existing system for ranking, or classifying, or whatever problem you are trying to solve.",
+                    "有一个现有的系统，它可用于排名、分类，或解决您正尝试解决的任何问题。"
+                ],
+                [
+                    "This means that there are a bunch of rules and heuristics.",
+                    "这意味着有多种规则和启发式算法。"
+                ],
+                [
+                    "These same heuristics can give you a lift when tweaked with machine learning.",
+                    "使用机器学习进行调整后，此类启发式算法可为您提供便利。"
+                ],
+                [
+                    "Your heuristics should be mined for whatever information they have, for two reasons.",
+                    "您应该挖掘自己的启发式算法，了解它们所包含的任何信息，原因有以下两点。"
+                ],
+                [
+                    "First, the transition to a machine learned system will be smoother.",
+                    "首先，向机器学习系统的过渡会更平稳。"
+                ],
+                [
+                    "Second, usually those rules contain a lot of the intuition about the system you don’t want to throw away.",
+                    "其次，这些规则通常包含大量您不愿意丢弃的关于系统的直觉信息。"
+                ],
+                [
+                    "There are four ways you can use an existing heuristic:",
+                    "您可以通过以下四种方法使用现有启发式算法："
+                ],
+                [
+                    "Preprocess using the heuristic.",
+                    "使用启发法进行预处理。"
+                ],
+                [
+                    "If the feature is incredibly awesome, then this is an option.",
+                    "如果特征非常好，则可以选择执行此操作。"
+                ],
+                [
+                    "For example, if, in a spam filter, the sender has already been blacklisted, don’t try to relearn what \"blacklisted\" means.",
+                    "例如，在垃圾邮件过滤器中，如果发件人已被列入黑名单，则不要试图重新学习“已列入黑名单”的含义。"
+                ],
+                [
+                    "Block the message.",
+                    "屏蔽该邮件即可。"
+                ],
+                [
+                    "This approach makes the most sense in binary classification tasks.",
+                    "这种方法最适合在二元分类任务中使用。"
+                ],
+                [
+                    "Create a feature.",
+                    "创建特征。"
+                ],
+                [
+                    "Directly creating a feature from the heuristic is great.",
+                    "直接通过启发法创建特征是一种很好的做法。"
+                ],
+                [
+                    "For example, if you use a heuristic to compute a relevance score for a query result, you can include the score as the value of a feature.",
+                    "例如，如果您使用启发法计算查询结果的相关性分数，则可以将此分数纳为一个特征的值。"
+                ],
+                [
+                    "Later on you may want to use machine learning techniques to massage the value (for example, converting the value into one of a finite set of discrete values, or combining it with other features) but start by using the raw value produced by the heuristic.",
+                    "您日后可能想要使用机器学习技术调整该值（例如，将该值转换为一个有限离散值集合中的一个值，或与其他特征相组合），但是首先请使用启发法生成的原始值。"
+                ],
+                [
+                    "Mine the raw inputs of the heuristic.",
+                    "挖掘启发法的原始输入。"
+                ],
+                [
+                    "If there is a heuristic for apps that combines the number of installs, the number of characters in the text, and the day of the week, then consider pulling these pieces apart, and feeding these inputs into the learning separately.",
+                    "如果某个应用启发法结合了安装次数、文本中的字符数以及星期值，则考虑将这些内容拆分开来，并作为输入单独提供给学习算法。"
+                ],
+                [
+                    "Some techniques that apply to ensembles apply here (see Rule #40).",
+                    "部分适用于集成学习的技巧也适用于此（请参阅第 40 条规则）。"
+                ],
+                [
+                    "Modify the label.",
+                    "修改标签。"
+                ],
+                [
+                    "This is an option when you feel that the heuristic captures information not currently contained in the label.",
+                    "当您感觉启发法会获取当前标签中未包含的信息时，可以选择进行此操作。"
+                ],
+                [
+                    "For example, if you are trying to maximize the number of downloads, but you also want quality content, then maybe the solution is to multiply the label by the average number of stars the app received.",
+                    "例如，如果您正在尝试最大程度地增加下载次数，但同时也想要优质的内容，则可能的解决方案是用标签乘以应用获得的平均星数。"
+                ],
+                [
+                    "There is a lot of leeway here.",
+                    "您可以非常灵活地修改标签。"
+                ],
+                [
+                    "See \"Your First Objective\".",
+                    "请参阅“您的第一个目标”。"
+                ],
+                [
+                    "Do be mindful of the added complexity when using heuristics in an ML system.",
+                    "在机器学习系统中使用启发法时，请务必留意是否会带来额外的复杂性。"
+                ],
+                [
+                    "Using old heuristics in your new machine learning algorithm can help to create a smooth transition, but think about whether there is a simpler way to accomplish the same effect.",
+                    "在新的机器学习算法中使用旧启发式算法有助于实现平稳过渡，但思考下是否有可以达到相同效果的更简单的方法。"
+                ]
+            ]
+        },
+        {
+            "name": "Monitoring",
+            "split": "valid",
+            "text": [
+                [
+                    "Monitoring",
+                    "监控"
+                ],
+                [
+                    "In general, practice good alerting hygiene, such as making alerts actionable and having a dashboard page.",
+                    "在一般情况下，请实行良好的警报安全机制，例如设计解决警报的步骤以及提供“信息中心”页面。"
+                ]
+            ]
+        },
+        {
+            "name": "Rule #8: Know the freshness requirements of your system.",
+            "split": "valid",
+            "text": [
+                [
+                    "Rule #8: Know the freshness requirements of your system.",
+                    "第 8 条规则：了解您的系统对新鲜程度的要求。"
+                ],
+                [
+                    "How much does performance degrade if you have a model that is a day old? A week old? A quarter old?",
+                    "如果您使用一天前的模型，效果会降低多少？一周前的模型呢？一个季度前的模型呢？"
+                ],
+                [
+                    "This information can help you to understand the priorities of your monitoring.",
+                    "此类消息有助于您了解需要优先监控哪些方面。"
+                ],
+                [
+                    "If you lose significant product quality if the model is not updated for a day, it makes sense to have an engineer watching it continuously.",
+                    "如果一天不更新模型会对您的产品质量产生严重影响，则最好让工程师持续观察相关情况。"
+                ],
+                [
+                    "Most ad serving systems have new advertisements to handle every day, and must update daily.",
+                    "大多数广告投放系统每天都有新广告要处理，并且必须每天更新。"
+                ],
+                [
+                    "For instance, if the ML model for Google Play Search is not updated, it can have a negative impact in under a month.",
+                    "例如，如果不更新 Google Play 搜索的机器学习模型，则不到一个月便会产生负面影响。"
+                ],
+                [
+                    "Some models for What’s Hot in Google Plus have no post identifier in their model so they can export these models infrequently.",
+                    "Google+ 热门信息的某些模型中没有帖子标识符，因此无需经常导出这些模型。"
+                ],
+                [
+                    "Other models that have post identifiers are updated much more frequently.",
+                    "其他具有帖子标识符的模型的更新频率要高得多。"
+                ],
+                [
+                    "Also notice that freshness can change over time, especially when feature columns are added or removed from your model.",
+                    "另请注意，新鲜程度会随着时间而改变，尤其是在向模型中添加特征列或从中移除特征列时。"
+                ]
+            ]
+        },
+        {
+            "name": "Rule #11: Give feature columns owners and documentation.",
+            "split": "valid",
+            "text": [
+                [
+                    "Rule #11: Give feature columns owners and documentation.",
+                    "第 11 条规则：提供特征列的所有者及相关文档。"
+                ],
+                [
+                    "If the system is large, and there are many feature columns, know who created or is maintaining each feature column.",
+                    "如果系统很大，且有很多特征列，则需要知道每个特征列的创建者或维护者。"
+                ],
+                [
+                    "If you find that the person who understands a feature column is leaving, make sure that someone has the information.",
+                    "如果您发现了解某个特征列的人要离职，请确保有人知道相关信息。"
+                ],
+                [
+                    "Although many feature columns have descriptive names, it's good to have a more detailed description of what the feature is, where it came from, and how it is expected to help.",
+                    "尽管很多特征列都有说明性名称，但针对特征的含义、来源以及预计提供帮助的方式提供更详细的说明，是一种不错的做法。"
+                ]
+            ]
+        },
+        {
+            "name": "Rule #34: In binary classification for filtering (such as spam detection or determining interesting emails), make small short-term sacrifices in performance for very clean data.",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "Rule #40: Keep ensembles simple.",
+            "split": "valid",
+            "text": []
+        }
+    ]
+}

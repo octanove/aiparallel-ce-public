@@ -1,0 +1,16 @@
+{
+    "source_id": "rules-of-ml",
+    "url": "https://developers.google.com/machine-learning/guides/rules-of-ml?hl=zh-cn",
+    "sections": [
+        {
+            "name": "Rule #23: You are not a typical end user.",
+            "split": "test",
+            "text": []
+        },
+        {
+            "name": "Rule #27: Try to quantify observed undesirable behavior.",
+            "split": "test",
+            "text": []
+        }
+    ]
+}

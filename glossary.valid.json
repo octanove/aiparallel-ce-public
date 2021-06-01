@@ -1,0 +1,297 @@
+{
+    "source_id": "glossary",
+    "url": "https://developers.google.com/machine-learning/glossary",
+    "sections": [
+        {
+            "name": "A/B testing",
+            "split": "valid",
+            "text": [
+                [
+                    "A/B testing",
+                    "A/B 测试"
+                ],
+                [
+                    "A statistical way of comparing two (or more) techniques, typically an incumbent against a new rival.",
+                    "一种统计方法，用于将两种或多种技术进行比较，通常是将当前采用的技术与新技术进行比较。"
+                ],
+                [
+                    "A/B testing aims to determine not only which technique performs better but also to understand whether the difference is statistically significant.",
+                    "A/B 测试不仅旨在确定哪种技术的效果更好，而且还有助于了解相应差异是否具有显著的统计意义。"
+                ],
+                [
+                    "A/B testing usually considers only two techniques using one measurement, but it can be applied to any finite number of techniques and measures.",
+                    "A/B 测试通常是采用一种衡量方式对两种技术进行比较，但也适用于任意有限数量的技术和衡量方式。"
+                ]
+            ]
+        },
+        {
+            "name": "batch size",
+            "split": "valid",
+            "text": [
+                [
+                    "batch size",
+                    "批次大小"
+                ],
+                [
+                    "The number of examples in a batch.",
+                    "一个批次中的样本数。"
+                ],
+                [
+                    "For example, the batch size of SGD is 1, while the batch size of a mini-batch is usually between 10 and 1000.",
+                    "例如，SGD 的批次大小为 1，而小批次的大小通常介于 10 到 1000 之间。"
+                ],
+                [
+                    "Batch size is usually fixed during training and inference; however, TensorFlow does permit dynamic batch sizes.",
+                    "批次大小在训练和推断期间通常是固定的；不过，TensorFlow 允许使用动态批次大小。"
+                ]
+            ]
+        },
+        {
+            "name": "binning",
+            "split": "valid",
+            "text": [
+                [
+                    "分箱"
+                ],
+                [
+                    "请参阅分桶。"
+                ]
+            ]
+        },
+        {
+            "name": "candidate generation",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "candidate sampling",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "convergence",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "critic",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "data analysis",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "DataFrame",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "decision threshold",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "dense feature",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "dimensions",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "disparate impact",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "disparate treatment",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "downsampling",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "epsilon greedy policy",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "equalized odds",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "fairness metric",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "false negative (FN)",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "feature cross",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "graph",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "i.i.d.",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "inter-rater agreement",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "IoU",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "Keras",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "keypoints",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "Kernel Support Vector Machines (KSVMs)",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "labeled example",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "layer",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "Layers API (tf.layers)",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "loss",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "minority class",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "noise",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "P",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "perceptron",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "performance",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "policy",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "pooling",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "quantile",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "rank (Tensor)",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "Rectified Linear Unit (ReLU)",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "replay buffer",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "scalar",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "state",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "subsampling",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "target",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "TPU chip",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "TPU type",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "transfer learning",
+            "split": "valid",
+            "text": []
+        },
+        {
+            "name": "vanishing gradient problem",
+            "split": "valid",
+            "text": []
+        }
+    ]
+}
