@@ -5,7 +5,24 @@
         {
             "name": "class",
             "split": "test",
-            "text": []
+            "text": [
+                [
+                    "class",
+                    "类别"
+                ],
+                [
+                    "One of a set of enumerated target values for a label.",
+                    "为标签枚举的一组目标值中的一个。"
+                ],
+                [
+                    "For example, in a binary classification model that detects spam, the two classes are spam and not spam.",
+                    "例如，在检测垃圾邮件的二元分类模型中，两种类别分别是“垃圾邮件”和“非垃圾邮件”。"
+                ],
+                [
+                    "In a multi-class classification model that identifies dog breeds, the classes would be poodle, beagle, pug, and so on.",
+                    "在识别狗品种的多类别分类模型中，类别可以是“贵宾犬”、“小猎犬”、“哈巴犬”等等。"
+                ]
+            ]
         },
         {
             "name": "classification model",

@@ -51,22 +51,40 @@
             "split": "valid",
             "text": [
                 [
+                    "binning",
                     "分箱"
                 ],
                 [
+                    "See bucketing.",
                     "请参阅分桶。"
                 ]
             ]
         },
         {
-            "name": "candidate generation",
-            "split": "valid",
-            "text": []
-        },
-        {
             "name": "candidate sampling",
             "split": "valid",
-            "text": []
+            "text": [
+                [
+                    "candidate sampling",
+                    "候选采样"
+                ],
+                [
+                    "A training-time optimization in which a probability is calculated for all the positive labels, using, for example, softmax, but only for a random sample of negative labels.",
+                    "一种训练时进行的优化，会使用某种函数（例如 softmax）针对所有正类别标签计算概率，但对于负类别标签，则仅针对其随机样本计算概率。"
+                ],
+                [
+                    "For example, if we have an example labeled beagle and dog candidate sampling computes the predicted probabilities and corresponding loss terms for the beagle and dog class outputs in addition to a random subset of the remaining classes (cat, lollipop, fence).",
+                    "例如，如果某个样本的标签为“小猎犬”和“狗”，则候选采样将针对“小猎犬”和“狗”类别输出以及其他类别（猫、棒棒糖、栅栏）的随机子集计算预测概率和相应的损失项。"
+                ],
+                [
+                    "The idea is that the negative classes can learn from less frequent negative reinforcement as long as positive classes always get proper positive reinforcement, and this is indeed observed empirically.",
+                    "这种采样基于的想法是，只要正类别始终得到适当的正增强，负类别就可以从频率较低的负增强中进行学习，这确实是在实际中观察到的情况。"
+                ],
+                [
+                    "The motivation for candidate sampling is a computational efficiency win from not computing predictions for all negatives.",
+                    "候选采样的目的是，通过不针对所有负类别计算预测结果来提高计算效率。"
+                ]
+            ]
         },
         {
             "name": "convergence",
