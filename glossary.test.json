@@ -27,22 +27,84 @@
         {
             "name": "classification model",
             "split": "test",
-            "text": []
+            "text": [
+                [
+                    "classification model",
+                    "分类模型"
+                ],
+                [
+                    "A type of machine learning model for distinguishing among two or more discrete classes.",
+                    "一种机器学习模型，用于区分两种或多种离散类别。s"
+                ],
+                [
+                    "For example, a natural language processing classification model could determine whether an input sentence was in French, Spanish, or Italian.",
+                    "例如，某个自然语言处理分类模型可以确定输入的句子是法语、西班牙语还是意大利语。"
+                ],
+                [
+                    "Compare with regression model.",
+                    "请与回归模型进行比较。"
+                ]
+            ]
         },
         {
             "name": "classification threshold",
             "split": "test",
-            "text": []
+            "text": [
+                [
+                    "classification threshold",
+                    "分类阈值"
+                ],
+                [
+                    "A scalar-value criterion that is applied to a model's predicted score in order to separate the positive class from the negative class.",
+                    "一种标量值条件，应用于模型预测的得分，旨在将正类别与负类别区分开。"
+                ],
+                [
+                    "Used when mapping logistic regression results to binary classification.",
+                    "将逻辑回归结果映射到二元分类时使用。"
+                ],
+                [
+                    "For example, consider a logistic regression model that determines the probability of a given email message being spam.",
+                    "以某个逻辑回归模型为例，该模型用于确定指定电子邮件是垃圾邮件的概率。"
+                ],
+                [
+                    "If the classification threshold is 0.9, then logistic regression values above 0.9 are classified as spam and those below 0.9 are classified as not spam.",
+                    "如果分类阈值为 0.9，那么逻辑回归值高于 0.9 的电子邮件将被归类为“垃圾邮件”，低于 0.9 的则被归类为“非垃圾邮件”。"
+                ]
+            ]
         },
         {
             "name": "clustering",
             "split": "test",
-            "text": []
-        },
-        {
-            "name": "convenience sampling",
-            "split": "test",
-            "text": []
+            "text": [
+                [
+                    "clustering",
+                    "聚类"
+                ],
+                [
+                    "Grouping related examples, particularly during unsupervised learning.",
+                    "将关联的样本分成一组，一般用于非监督式学习。"
+                ],
+                [
+                    "Once all the examples are grouped, a human can optionally supply meaning to each cluster.",
+                    "在所有样本均分组完毕后，相关人员便可选择性地为每个聚类赋予含义。"
+                ],
+                [
+                    "Many clustering algorithms exist.",
+                    "聚类算法有很多。"
+                ],
+                [
+                    "For example, the k-means algorithm clusters examples based on their proximity to a centroid, as in the following diagram:",
+                    "例如，k-means 算法会基于样本与形心的接近程度聚类样本，如下图所示："
+                ],
+                [
+                    "A human researcher could then review the clusters and, for example, label cluster 1 as \"dwarf trees\" and cluster 2 as \"full-size trees.\"",
+                    "之后，研究人员便可查看这些聚类并进行其他操作，例如，将聚类 1 标记为“矮型树”，将聚类 2 标记为“全尺寸树”。"
+                ],
+                [
+                    "As another example, consider a clustering algorithm based on an example's distance from a center point, illustrated as follows:",
+                    "再举一个例子，例如基于样本与中心点距离的聚类算法，如下所示："
+                ]
+            ]
         },
         {
             "name": "convolutional neural network",

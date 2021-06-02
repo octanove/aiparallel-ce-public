@@ -89,7 +89,32 @@
         {
             "name": "convergence",
             "split": "valid",
-            "text": []
+            "text": [
+                [
+                    "convergence",
+                    "收敛"
+                ],
+                [
+                    "Informally, often refers to a state reached during training in which training loss and validation loss change very little or not at all with each iteration after a certain number of iterations.",
+                    "通俗来说，收敛通常是指在训练期间达到的一种状态，即经过一定次数的迭代之后，训练损失和验证损失在每次迭代中的变化都非常小或根本没有变化。"
+                ],
+                [
+                    "In other words, a model reaches convergence when additional training on the current data will not improve the model.",
+                    "也就是说，如果采用当前数据进行额外的训练将无法改进模型，模型即达到收敛状态。"
+                ],
+                [
+                    "In deep learning, loss values sometimes stay constant or nearly so for many iterations before finally descending, temporarily producing a false sense of convergence.",
+                    "在深度学习中，损失值有时会在最终下降之前的多次迭代中保持不变或几乎保持不变，暂时形成收敛的假象。"
+                ],
+                [
+                    "See also early stopping.",
+                    "另请参阅早停法。"
+                ],
+                [
+                    "See also Boyd and Vandenberghe, Convex Optimization.",
+                    "另请参阅 Boyd 和 Vandenberghe 合著的 Convex Optimization（《凸优化》）。"
+                ]
+            ]
         },
         {
             "name": "critic",
